@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".StartQuiz">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="296dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:text="Start Quiz"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtQues1"
+        android:layout_width="368dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/thirdBG"
+        android:ems="10"
+        android:hint="Question"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="385dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQues1">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="291dp"
+            android:text="toronto" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="294dp"
+            android:text="vancouver" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="291dp"
+            android:text="montreal" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="299dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/secondaryBG"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:strokeColor="@color/borderColor"
+        app:strokeWidth="2sp" />
+
+    <ListView
+        android:id="@+id/lst1"
+        android:layout_width="602dp"
+        android:layout_height="228dp"
+
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="420dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="90dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lst1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

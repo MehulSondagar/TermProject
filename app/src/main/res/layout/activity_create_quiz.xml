@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".CreateQuiz">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="219dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="36dp"
+        android:text="Quiz Builder"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtQuestion"
+        android:layout_width="404dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Enter the question"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/txtAnswer"
+        android:layout_width="398dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter the answer"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQuestion" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="297dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/secondaryBG"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnswer"
+        app:strokeColor="@color/borderColor"
+        app:strokeWidth="2sp" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="303dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/secondaryBG"
+        android:text="Done"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdd"
+        app:strokeColor="@color/borderColor"
+        app:strokeWidth="2sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

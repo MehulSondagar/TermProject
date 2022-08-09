@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_create_quiz.xml" value="0.21435394287109377" />
+        <entry key="app/src/main/res/layout/activity_forgot_pass.xml" value="0.2562149047851563" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2293426513671875" />
+        <entry key="app/src/main/res/layout/activity_login_validation.xml" value="0.22168884277343748" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17353363037109376" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2586332821676917" />
+        <entry key="app/src/main/res/layout/activity_start_quiz.xml" value="0.12502593994140626" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
